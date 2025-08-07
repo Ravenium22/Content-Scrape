@@ -1,0 +1,31 @@
+{
+  "name": "discord-twitter-scraper",
+  "version": "1.0.0",
+  "description": "Discord bot that scrapes Twitter links and saves to MongoDB",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "twitter",
+    "mongodb",
+    "scraper"
+  ],
+  "author": "Ravenium",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
